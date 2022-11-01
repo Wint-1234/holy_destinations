@@ -1,0 +1,17 @@
+.btns {
+  background-color: black;
+  text-decoration: none;
+  position: absolute;
+  bottom: 0;
+  right: 34%;
+}
+
+.card {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+.card-img-top {
+  height: 30%;
+  width: 100%;
+}
