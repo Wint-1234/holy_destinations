@@ -1,0 +1,15 @@
+#image {
+    width: 75px;
+    height: auto;
+}
+
+#back-btn {
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+#full-chapter-container {
+    text-align: center;
+    margin: 175px;
+}
