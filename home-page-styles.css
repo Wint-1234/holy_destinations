@@ -1,0 +1,19 @@
+#card-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#featured-locations-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* .weather-verse-img {
+    box-sizing: border-box;
+    width: 50%;
+} */
+
+img {
+    width: 200px;
+    height: 200px;
+}
