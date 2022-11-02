@@ -26,26 +26,37 @@
         <header>
             <nav>
                 <div class="nav-wrapper">
-                    <a href="#" class="brand-logo">Logo</a>
+                    <a class="brand-logo"
+                        ><img
+                            id="image"
+                            src="./Holy (1).png"
+                            alt="Holy Destinations Logo"
+                    /></a>
                     <ul id="nav-mobile" class="right hide-on-med-and-down">
-                        <li><a href="sass.html">Home</a></li>
-                        <li><a href="badges.html">Donate</a></li>
-                        <li><a href="collapsible.html">About us</a></li>
+                        <li><a class="nav-text" href="sass.html">HOME</a></li>
+                        <li>
+                            <a class="nav-text" href="badges.html">DONATE</a>
+                        </li>
+                        <li>
+                            <a class="nav-text" href="collapsible.html"
+                                >ABOUT US</a
+                            >
+                        </li>
                     </ul>
                 </div>
             </nav>
         </header>
 
         <main>
+            <h2 style="text-align: center">Welcome to Holy Destinations</h2>
             <!-- Weather and Verse of the Day section -->
             <section id="card-container">
-                <div>
+                <div class="card-div">
                     <div class="row">
                         <div class="col s12 m7">
                             <div class="card">
                                 <div class="card-image">
                                     <img
-                                        class="weather-verse-img"
                                         src="https://images.unsplash.com/photo-1590055531615-f16d36ffe8ec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2664&q=80"
                                     />
                                 </div>
@@ -53,19 +64,20 @@
                                     <p>I am a very simple card.</p>
                                 </div>
                                 <div class="card-action">
-                                    <a href="#">This is a link</a>
+                                    <a href="#" class="btn btn-primary"
+                                        >Click for more info</a
+                                    >
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div>
+                <div class="card-div">
                     <div class="row">
                         <div class="col s12 m7">
                             <div class="card">
                                 <div class="card-image">
                                     <img
-                                        class="weather-verse-img"
                                         src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3273&q=80"
                                     />
                                 </div>
@@ -73,7 +85,9 @@
                                     <p>I am a very simple card.</p>
                                 </div>
                                 <div class="card-action">
-                                    <a href="#">This is a link</a>
+                                    <a href="#" class="btn btn-primary"
+                                        >Click for more info</a
+                                    >
                                 </div>
                             </div>
                         </div>
@@ -82,36 +96,65 @@
             </section>
 
             <!-- Featured locations sections -->
-            <h1 style="text-align: center">Featured Locations</h1>
+            <h3 style="text-align: center">Featured Locations</h3>
             <section id="featured-locations-container">
-                <div class="card" style="width: 18rem">
-                    <img src="..." class="card-img-top" alt="..." />
+                <div class="card featured-locations-card" style="width: 32rem">
+                    <img
+                        src="https://iloverealestate.tv/wp-content/uploads/2019/01/Facing-Goliath-Blog-Pic.jpg"
+                        class="card-img-top"
+                        alt="David and Goliath fight scene"
+                    />
                     <div class="card-body">
                         <h5 class="card-title">David and Goliath</h5>
                         <p class="card-text">
-                            Add quote about David and Goliath
+                            <strong>Samuel 17:45-46</strong> "Then David said to
+                            the Philistine, You come to me with a sword and with
+                            a spear and with a javelin, but I come to you in the
+                            name of the Lord of hosts, the God of the armies of
+                            Israel, whom you have defied. This day the Lord will
+                            deliver you into my hand."<br /><br /><br />
                         </p>
                         <a href="#" class="btn btn-primary"
                             >Click for more info</a
                         >
                     </div>
                 </div>
-                <div class="card" style="width: 18rem">
-                    <img src="..." class="card-img-top" alt="..." />
+                <div class="card featured-locations-card" style="width: 32rem">
+                    <img
+                        src="https://wallpapercave.com/wp/wp2347716.jpg"
+                        class="card-img-top"
+                        alt="Birth of Jesus"
+                    />
                     <div class="card-body">
                         <h5 class="card-title">Birth of Jesus</h5>
-                        <p class="card-text">Add quote about birth of Jesus</p>
+                        <p class="card-text">
+                            <strong>John 3:16</strong> "For God so loved the
+                            world, that he gave his only Son, that whoever
+                            believes in him should not perish but have eternal
+                            life."<br /><br /><br /><br /><br />
+                        </p>
                         <a href="#" class="btn btn-primary"
                             >Click for more info</a
                         >
                     </div>
                 </div>
-                <div class="card" style="width: 18rem">
-                    <img src="..." class="card-img-top" alt="..." />
+                <div class="card featured-locations-card" style="width: 32rem">
+                    <img
+                        src="https://assetsnffrgf-a.akamaihd.net/assets/m/1102014723/univ/art/1102014723_univ_lsr_xl.jpg"
+                        class="card-img-top"
+                        alt="Garden of Gethsemane"
+                    />
                     <div class="card-body">
                         <h5 class="card-title">Garden of Gethsemane</h5>
                         <p class="card-text">
-                            Add quote about garden of gethsemane
+                            <strong>Matthew 26:36</strong> "Then Jesus went with
+                            his disciples to a place called Gethsemane, and he
+                            said to them, Sit here while I go over there and
+                            pray. 37 He took Peter and the two sons of Zebedee
+                            along with him, and he began to be sorrowful and
+                            troubled. 38 Then he said to them, My soul is
+                            overwhelmed with sorrow to the point of death. Stay
+                            here and keep watch with me." <br /><br />
                         </p>
                         <a href="#" class="btn btn-primary"
                             >Click for more info</a
@@ -136,7 +179,7 @@
             crossorigin="anonymous"
         ></script>
         <!-- My javascript -->
-        <script src="./script.js"></script>
+        <script src="./home-page-script.js"></script>
         <!-- Compiled and minified JavaScript -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     </body>
