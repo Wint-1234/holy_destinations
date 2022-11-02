@@ -1,5 +1,5 @@
 .btns {
-  background-color: black;
+  background-color: green;
   text-decoration: none;
   position: absolute;
   bottom: 0;
@@ -14,4 +14,30 @@
 .card-img-top {
   height: 30%;
   width: 100%;
+}
+
+.card-body {
+  background-color: rgb(228, 220, 209);
+}
+
+/* NAV BAR CSS */
+.nav-wrapper {
+  background-color: rgb(228, 220, 209);
+}
+
+#image {
+  width: 4rem;
+
+  height: 100%;
+}
+
+.nav-text {
+  color: black;
+  font-weight: bolder;
+}
+
+.donate-txt {
+  color: black;
+  background-color: green;
+  font-weight: bold;
 }
