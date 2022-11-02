@@ -1,19 +1,68 @@
+/* NAV BAR CSS */
+.nav-wrapper {
+    background-color: rgb(228, 220, 209);
+}
+#image {
+    width: 4rem;
+    height: 100%;
+}
+.nav-text {
+    color: black;
+    font-weight: bolder;
+}
+
 #card-container {
     display: flex;
     justify-content: space-evenly;
+    margin-top: 40px;
+    background-color: #f9f9f9;
 }
 
 #featured-locations-container {
     display: flex;
     justify-content: space-evenly;
+    background-color: #f9f9f9;
 }
 
-/* .weather-verse-img {
+.card {
     box-sizing: border-box;
-    width: 50%;
-} */
+    height: 100%;
+}
+
+.featured-locations-card {
+    border-radius: 25px;
+}
+
+.card-image {
+    height: 300px;
+}
 
 img {
-    width: 200px;
-    height: 200px;
+    height: 300px;
+}
+
+.card-div {
+    width: 700px;
+}
+
+.btn-primary {
+    background-color: rgb(214, 177, 96);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-title {
+    text-align: center;
+}
+
+h2,
+h3 {
+    font-family: titleFont;
+    padding: 20px;
+}
+
+@font-face {
+    font-family: titleFont;
+    src: url(../fonts/Amsterdam\ Four_ttf\ 400.ttf);
 }
