@@ -1,15 +1,28 @@
 #image {
-    width: 75px;
-    height: auto;
+  width: 75px;
+  height: auto;
 }
 
 #back-btn {
-    position: relative;
-    top: 100px;
-    left: 100px;
+  position: relative;
+  top: 100px;
+  left: 100px;
 }
 
 #full-chapter-container {
-    text-align: center;
-    margin: 175px;
+  text-align: center;
+  margin: 175px;
+}
+
+/* NAV BAR CSS */
+.nav-wrapper {
+  background-color: rgb(228, 220, 209);
+}
+#image {
+  width: 4rem;
+  height: 100%;
+}
+.nav-text {
+  color: black;
+  font-weight: bolder;
 }
