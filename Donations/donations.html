@@ -1,46 +1,232 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Donate</title>
-        <!-- Required meta tags -->
-        <meta charset="utf-8" />
-        <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1, shrink-to-fit=no"
-        />
+  <head>
+    <title>Donate</title>
+    <!-- Logo in tab -->
+    <link
+      rel="shortcut icon"
+      href="./holy-nobackground.png"
+      type="image/x-icon"
+    />
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-        <!-- Bootstrap CSS v5.2.1 -->
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
-            crossorigin="anonymous"
-        />
-        <!-- My CSS -->
-        <link rel="stylesheet" href="./donations-styles.css" />
-    </head>
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
 
-    <body>
-        <header>
-            <!-- place navbar here -->
-        </header>
-        <main></main>
-        <footer>
-            <!-- place footer here -->
-        </footer>
-        <!-- Bootstrap JavaScript Libraries -->
-        <script
-            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-            integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-            crossorigin="anonymous"
-        ></script>
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
 
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
-            integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
-            crossorigin="anonymous"
-        ></script>
-        <!-- My script -->
-        <script src="./donations-script.js"></script>
-    </body>
+    <!-- My CSS -->
+    <link rel="stylesheet" href="./donations-styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <!-- place navbar here -->
+      <nav>
+        <div class="nav-wrapper">
+          <a class="brand-logo"
+            ><img id="image" src="./Holy (1).png" alt="Holy Destinations Logo"
+          /></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a class="nav-text" href="sass.html">HOME</a></li>
+            <li><a class="nav-text" href="badges.html">DONATE</a></li>
+            <li><a class="nav-text" href="collapsible.html">ABOUT US</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- main content -->
+    <main>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="https://nonprofitpoint.com/wp-content/uploads/2022/03/CleanShot-2022-03-02-at-16.58.15@2x-min-1024x507.png?ezimgfmt=ng:webp/ngcb1"
+                alt="compassion international page"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Compassion International</h5>
+                <p class="card-text">
+                  Compassion International is a non-profit organization that
+                  works to support the world’s poorest children. They offer
+                  children in some of the most vulnerable communities around the
+                  world, hope for their future and a chance at life in Christ.
+                  Their mission is to show God’s love by meeting physical needs,
+                  sharing the message of Jesus Christ, and helping communities
+                  develop sustainable solutions to poverty.
+                </p>
+                <button
+                  type="button"
+                  class="btns"
+                  data-bs-toggle="popover"
+                  data-bs-title="Popover title"
+                  data-bs-content="And here's some amazing content. It's very engaging. Right?"
+                >
+                  <a
+                    href="https://www.compassion.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="donate-txt"
+                    >DONATE NOW</a
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- THIS IS CARD 2  -->
+          <div class="col-md-3">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="https://nonprofitpoint.com/wp-content/uploads/2022/03/CleanShot-2022-03-02-at-17.02.15@2x-min-1024x504.png?ezimgfmt=ng:webp/ngcb1"
+                alt="catholic relief services page"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Catholic Relief Services</h5>
+                <p class="card-text">
+                  Catholic Relief Services is an international christian charity
+                  nonprofit organization that provides aid to people in need.
+                  The agency has been around for over 65 years and works in the
+                  world’s poorest communities. Catholic Relief Services partners
+                  with local organizations to provide disaster relief, food,
+                  water, shelter, education, and more. In 2016 they helped
+                  vulnerable people in 23 countries in Africa and Asia recover
+                  from crises such as earthquakes, floods, and hurricanes.
+                </p>
+                <button
+                  type="button"
+                  class="btns"
+                  data-bs-toggle="popover"
+                  data-bs-title="Popover title"
+                  data-bs-content="And here's some amazing content. It's very engaging. Right?"
+                >
+                  <a
+                    href="https://www.crs.org/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="donate-txt"
+                    >DONATE NOW</a
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- THIS IS CARD 3  -->
+          <div class="col-md-3">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="https://nonprofitpoint.com/wp-content/uploads/2022/03/CleanShot-2022-03-02-at-17.02.50@2x-min-1024x554.png?ezimgfmt=ng:webp/ngcb1"
+                alt="salvation army page"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Salvation Army</h5>
+                <p class="card-text">
+                  The Salvation Army is one of the most well-known charities in
+                  the United States. In fact, it’s often referred to as the “Red
+                  Kettle charity.” It provides a variety of services including
+                  food, shelter, and disaster relief. The Salvation Army also
+                  helps people find jobs and have a place to live. The Salvation
+                  Army is an integral part of the Christian Church, although
+                  distinctive in government.
+                </p>
+                <button
+                  type="button"
+                  class="btns"
+                  data-bs-toggle="popover"
+                  data-bs-title="Popover title"
+                  data-bs-content="And here's some amazing content. It's very engaging. Right?"
+                >
+                  <a
+                    href="https://www.salvationarmy.org/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="donate-txt"
+                    >DONATE NOW</a
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- THIS IS CARD 4  -->
+          <div class="col-md-3">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="https://nonprofitpoint.com/wp-content/uploads/2022/03/CleanShot-2022-03-02-at-17.04.43@2x-min-1024x475.png?ezimgfmt=ng:webp/ngcb1"
+                alt="childfund earlier ccf page"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  ChildFund - Earlier Christian Children's Fund(CCF)
+                </h5>
+                <p class="card-text">
+                  ChildFund formerly known as Christian Children’s Fund (CCF) is
+                  a nonprofit organization that has been working for more than
+                  60 years to help provide relief, development and care for
+                  children who need it most. CCF has served more than 150
+                  million children in over 30 countries around the world. CCF
+                  works in the U.S. and abroad among those who are often
+                  forgotten, giving them basic needs and promoting long-term
+                  self-sufficiency.
+                </p>
+                <button
+                  type="button"
+                  class="btns"
+                  data-bs-toggle="popover"
+                  data-bs-title="Popover title"
+                  data-bs-content="And here's some amazing content. It's very engaging. Right?"
+                >
+                  <a
+                    href="https://www.childfund.org/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="donate-txt"
+                    >DONATE NOW</a
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <!-- place footer here -->
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+    <!-- My script -->
+    <script src="./donations-script.js"></script>
+  </body>
 </html>
