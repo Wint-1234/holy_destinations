@@ -92,7 +92,7 @@ h3 {
     border-radius: 50%;
 }
 
-.para-sections{
+.para-sections {
     text-align: left;
     margin-left: 5%;
     margin-right: 5%;
@@ -102,15 +102,12 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-  }
+}
 
 main {
     flex: 1 0 auto;
-  }
+}
 
 .page-footer {
     background-color: rgb(228, 220, 209);
 }
-      
-
-
