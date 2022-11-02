@@ -17,3 +17,51 @@ img {
     width: 200px;
     height: 200px;
 }
+
+.about-us {
+    text-align: center;
+}
+
+.about-info {
+    background-color: rgb(228, 220, 209);
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.meet-the-team {
+    text-align: center;
+}
+
+.bio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#circle-photos {
+    border-radius: 50%;
+}
+
+.para-sections{
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+main {
+    flex: 1 0 auto;
+  }
+
+.page-footer {
+    background-color: rgb(228, 220, 209);
+}
+      
+
+
