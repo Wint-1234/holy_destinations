@@ -40,3 +40,13 @@
   background-color: green;
   font-weight: bold;
 }
+
+/* BACK-BTN */
+#back-btn {
+  background-color: rgb(214, 177, 96);
+  font-weight: bold;
+  color: white;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 2%;
+}
