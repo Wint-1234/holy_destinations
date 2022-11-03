@@ -56,7 +56,7 @@ img {
     text-align: center;
 }
 
-h2,
+h1,h2,
 h3 {
     font-family: titleFont;
     padding: 20px;
@@ -71,14 +71,24 @@ h3 {
     text-align: center;
 }
 
+#about-us-section {
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
 .about-info {
     background-color: rgb(228, 220, 209);
     margin-left: 5%;
     margin-right: 5%;
+    font-size: xx-large;
 }
 
 .meet-the-team {
     text-align: center;
+}
+
+#testimonials-sections {
+    margin-bottom: 7%;
 }
 
 .bio {
@@ -111,3 +121,27 @@ main {
 .page-footer {
     background-color: rgb(228, 220, 209);
 }
+
+.dropdown {
+
+    display: flex;
+  
+    justify-content: center;
+
+    margin: 3%;
+  
+  }
+  
+  .historical-map {
+  
+    display: flex;
+  
+    justify-content: center;
+  
+    margin: auto;
+  
+    width: 70%;
+  
+    height: auto;
+  
+  }
