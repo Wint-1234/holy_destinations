@@ -56,7 +56,8 @@ img {
     text-align: center;
 }
 
-h1,h2,
+h1,
+h2,
 h3 {
     font-family: titleFont;
     padding: 20px;
@@ -123,25 +124,64 @@ main {
 }
 
 .dropdown {
-
     display: flex;
-  
+
     justify-content: center;
 
     margin: 3%;
-  
-  }
-  
-  .historical-map {
-  
+}
+
+.historical-map {
     display: flex;
-  
+
     justify-content: center;
-  
+
     margin: auto;
-  
+
     width: 70%;
-  
+
     height: auto;
-  
-  }
+}
+
+/* Scripture CSS */
+#scripture-card {
+    display: flex;
+    box-sizing: border-box;
+    font-family: Arial;
+    background-image: url(https://images.unsplash.com/photo-1496450681664-3df85efbd29f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+    background-size: cover;
+    border-radius: 20px;
+    text-align: center;
+    height: 450px;
+    margin-top: 20px;
+}
+
+.verseOfDay {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 900;
+    margin: 30px 0px;
+    text-shadow: 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+.scripture {
+    font-style: italic;
+    color: #fff;
+    font-size: 20px;
+}
+
+.material-icons {
+    background-color: rgb(214, 177, 96);
+}
+/* End of Scripture CSS */
+
+/* BACK-BTN */
+
+#fullVerseButton {
+    background-color: rgb(214, 177, 96);
+    font-weight: bold;
+    color: white;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+}

@@ -1,360 +1,413 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-    <!-- Compiled and minified CSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
-    />
-    <!-- Icons from font awesome -->
-    <script
-      src="https://kit.fontawesome.com/2899849ee1.js"
-      crossorigin="anonymous"
-    ></script>
-
-    <!-- My CSS -->
-    <link rel="stylesheet" href="./home-page-styles.css" />
-    <title>Holy Destinations</title>
-    <!-- Logo in tab -->
-    <link
-      rel="shortcut icon"
-      href="../images/Holy-Logo-With-Background.png"
-      type="image/x-icon"
-    />
-  </head>
-
-  <body>
-    <!-- Nav bar from Materialize -->
-    <header>
-      <nav>
-        <div class="nav-wrapper">
-          <a class="brand-logo"
-            ><img
-              id="image"
-              src="../images/Holy-Logo-No-Background.png"
-              alt="Holy Destinations Logo"
-          /></a>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a class="nav-text" href="../Home/home-page.html">HOME</a></li>
-            <li>
-              <a class="nav-text" href="../Donations/donations.html">DONATE</a>
-            </li>
-            <li>
-              <a class="nav-text" href="../Home/home-page.html#about-us-section"
-                >ABOUT US</a
-              >
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-
-    <main>
-      <h2 style="text-align: center">Welcome to Holy Destinations</h2>
-      <!-- Weather and Verse of the Day section -->
-      <section id="card-container">
-        <div class="card-div">
-          <div class="row">
-            <div class="col s12 m7">
-              <div class="card">
-                <div class="card-image">
-                  <img
-                    src="https://images.unsplash.com/photo-1590055531615-f16d36ffe8ec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2664&q=80"
-                  />
-                </div>
-                <div class="card-content">
-                  <p>I am a very simple card.</p>
-                </div>
-                <div class="card-action">
-                  <a href="#" class="btn btn-primary">Click for more info</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card-div">
-          <div class="row">
-            <div class="col s12 m7">
-              <div class="card">
-                <div class="card-image">
-                  <img
-                    src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3273&q=80"
-                  />
-                </div>
-                <div class="card-content">
-                  <p>I am a very simple card.</p>
-                </div>
-                <div class="card-action">
-                  <a href="#" class="btn btn-primary">Click for more info</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Featured locations sections -->
-      <h3 style="text-align: center">Featured Locations</h3>
-      <section id="featured-locations-container">
-        <div class="card featured-locations-card" style="width: 32rem">
-          <img
-            src="https://iloverealestate.tv/wp-content/uploads/2019/01/Facing-Goliath-Blog-Pic.jpg"
-            class="card-img-top"
-            alt="David and Goliath fight scene"
-          />
-          <div class="card-body">
-            <h5 class="card-title">David and Goliath</h5>
-            <p class="card-text">
-              <strong>Samuel 17:45-46</strong> "Then David said to the
-              Philistine, You come to me with a sword and with a spear and with
-              a javelin, but I come to you in the name of the Lord of hosts, the
-              God of the armies of Israel, whom you have defied. This day the
-              Lord will deliver you into my hand."<br /><br /><br />
-            </p>
-            <a id="btn_search_david_goliath" class="btn btn-primary"
-              >Click for more info</a
-            >
-          </div>
-        </div>
-        <div class="card featured-locations-card" style="width: 32rem">
-          <img
-            src="https://wallpapercave.com/wp/wp2347716.jpg"
-            class="card-img-top"
-            alt="Birth of Jesus"
-          />
-          <div class="card-body">
-            <h5 class="card-title">Birth of Jesus</h5>
-            <p class="card-text">
-              <strong>John 3:16</strong> "For God so loved the world, that he
-              gave his only Son, that whoever believes in him should not perish
-              but have eternal life."<br /><br /><br /><br /><br />
-            </p>
-            <a id="btn_search_jesus_birth" href="#" class="btn btn-primary"
-              >Click for more info</a
-            >
-          </div>
-        </div>
-        <div class="card featured-locations-card" style="width: 32rem">
-          <img
-            src="https://assetsnffrgf-a.akamaihd.net/assets/m/1102014723/univ/art/1102014723_univ_lsr_xl.jpg"
-            class="card-img-top"
-            alt="Garden of Gethsemane"
-          />
-          <div class="card-body">
-            <h5 class="card-title">Garden of Gethsemane</h5>
-            <p class="card-text">
-              <strong>Matthew 26:36</strong> "Then Jesus went with his disciples
-              to a place called Gethsemane, and he said to them, Sit here while
-              I go over there and pray. 37 He took Peter and the two sons of
-              Zebedee along with him, and he began to be sorrowful and troubled.
-              38 Then he said to them, My soul is overwhelmed with sorrow to the
-              point of death. Stay here and keep watch with me." <br /><br />
-            </p>
-            <a
-              id="btn_search_garden_of_gethsemane"
-              href="#"
-              class="btn btn-primary"
-              >Click for more info</a
-            >
-          </div>
-        </div>
-      </section>
-
-      <!-- Drop Down -->
-      <section>
-        <div class="dropdown">
-          <a
-            id="btn_search_garden_of_gethsemane"
-            class="btn btn-secondary dropdown-toggle"
-            href="#"
-            role="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-            style="background-color: black"
-          >
-            Select More Holy Locations</a
-          >
-
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Sea of Galilee</a></li>
-            <li>
-              <a class="dropdown-item" href="#">Room of The Last Supper </a>
-            </li>
-            <li><a class="dropdown-item" href="#">Mount Sinai</a></li>
-            <li><a class="dropdown-item" href="#">Red Sea</a></li>
-            <li><a class="dropdown-item" href="#">The Jordan River</a></li>
-          </ul>
-        </div>
-      </section>
-
-      <!-- Section for Historial Map -->
-      <section>
-        <img
-          class="historical-map"
-          src="https://m.media-amazon.com/images/I/81TvsWBwkqL.jpg"
-          alt=""
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Bootstrap CSS -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous"
         />
-      </section>
+        <!-- Compiled and minified CSS -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+        />
+        <!-- Icons from font awesome -->
+        <script
+            src="https://kit.fontawesome.com/2899849ee1.js"
+            crossorigin="anonymous"
+        ></script>
 
-      <!-- About Us -->
-      <section id="about-us-section">
-        <h1 class="about-us">About Us</h1>
+        <!-- My CSS -->
+        <link rel="stylesheet" href="./home-page-styles.css" />
+        <title>Holy Destinations</title>
+        <!-- Logo in tab -->
+        <link
+            rel="shortcut icon"
+            href="../images/Holy-Logo-With-Background.png"
+            type="image/x-icon"
+        />
+    </head>
 
-        <div class="about-info">
-          <p>
-            Holy Destinations is the largest privately owned travel resource.
-            Our headquaters is located in Heavens, Gates and consistently ranked
-            #1 amoung travel websites world-wide. We are dedicated to providing
-            our users with top notch exerpiences which connects the scriptures
-            in the Bible to their real world locations!
-          </p>
-        </div>
-      </section>
-      <section id="testimonials-sections">
-        <h1 class="meet-the-team">Testimonials</h1>
+    <body>
+        <!-- Nav bar from Materialize -->
+        <header>
+            <nav>
+                <div class="nav-wrapper">
+                    <a class="brand-logo"
+                        ><img
+                            id="image"
+                            src="../images/Holy-Logo-No-Background.png"
+                            alt="Holy Destinations Logo"
+                    /></a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li>
+                            <a class="nav-text" href="../Home/home-page.html"
+                                >HOME</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="nav-text"
+                                href="../Donations/donations.html"
+                                >DONATE</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="nav-text"
+                                href="../Home/home-page.html#about-us-section"
+                                >ABOUT US</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
 
-        <div class="bio">
-          <div>
-            <img id="circle-photos" src="../images/Trey.jpg" alt="Trey" />
-            <h5>Trey Chrystak</h5>
+        <main>
+            <h2 style="text-align: center">Welcome to Holy Destinations</h2>
+            <!-- Verse of the Day section -->
+            <section id="card-container">
+                <div class="card-div">
+                    <div class="row">
+                        <div class="col s12 m7">
+                            <div id="scripture-card" class="card">
+                                <div class="current">
+                                    <div class="verseOfDay">
+                                        Verse of the Day:
+                                    </div>
+                                    <div id="verseOfDay" class="scripture">
+                                        Trust in the LORD with all your heart,
+                                        and do not lean on your own
+                                        understanding. In all your ways
+                                        acknowledge Him, and He will make
+                                        straight your paths.
+                                    </div>
+                                    <!-- Full Verse Button -->
+                                    <button
+                                        id="fullVerseButton"
+                                        class="waves-effect waves-light btn"
+                                    >
+                                        Click for more verses
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-            <i>
-              <p class="para-sections">
-                "Holy Destinations Travel Agency changed my life as a frequent
-                traveler. It is a one stop shop of my bible readings, seeing the
-                actual biblical locations, and finding the closet hotels in the
-                area. One of my favorite stories in the bible is about David and
-                Goliath. It was really cool to finally visit The Valley of Ellah
-                and experience where David actually stepped foot!"
-              </p>
-            </i>
-          </div>
+            <!-- Featured locations sections -->
+            <h3 style="text-align: center">Featured Locations</h3>
+            <section id="featured-locations-container">
+                <div class="card featured-locations-card" style="width: 32rem">
+                    <img
+                        src="https://iloverealestate.tv/wp-content/uploads/2019/01/Facing-Goliath-Blog-Pic.jpg"
+                        class="card-img-top"
+                        alt="David and Goliath fight scene"
+                    />
+                    <div class="card-body">
+                        <h5 class="card-title">David and Goliath</h5>
+                        <p class="card-text">
+                            <strong>Samuel 17:45-46</strong> "Then David said to
+                            the Philistine, You come to me with a sword and with
+                            a spear and with a javelin, but I come to you in the
+                            name of the Lord of hosts, the God of the armies of
+                            Israel, whom you have defied. This day the Lord will
+                            deliver you into my hand."<br /><br /><br />
+                        </p>
+                        <a id="btn_search_david_goliath" class="btn btn-primary"
+                            >Click for more info</a
+                        >
+                    </div>
+                </div>
+                <div class="card featured-locations-card" style="width: 32rem">
+                    <img
+                        src="https://wallpapercave.com/wp/wp2347716.jpg"
+                        class="card-img-top"
+                        alt="Birth of Jesus"
+                    />
+                    <div class="card-body">
+                        <h5 class="card-title">Birth of Jesus</h5>
+                        <p class="card-text">
+                            <strong>John 3:16</strong> "For God so loved the
+                            world, that he gave his only Son, that whoever
+                            believes in him should not perish but have eternal
+                            life."<br /><br /><br /><br /><br />
+                        </p>
+                        <a
+                            id="btn_search_jesus_birth"
+                            href="#"
+                            class="btn btn-primary"
+                            >Click for more info</a
+                        >
+                    </div>
+                </div>
+                <div class="card featured-locations-card" style="width: 32rem">
+                    <img
+                        src="https://assetsnffrgf-a.akamaihd.net/assets/m/1102014723/univ/art/1102014723_univ_lsr_xl.jpg"
+                        class="card-img-top"
+                        alt="Garden of Gethsemane"
+                    />
+                    <div class="card-body">
+                        <h5 class="card-title">Garden of Gethsemane</h5>
+                        <p class="card-text">
+                            <strong>Matthew 26:36</strong> "Then Jesus went with
+                            his disciples to a place called Gethsemane, and he
+                            said to them, Sit here while I go over there and
+                            pray. 37 He took Peter and the two sons of Zebedee
+                            along with him, and he began to be sorrowful and
+                            troubled. 38 Then he said to them, My soul is
+                            overwhelmed with sorrow to the point of death. Stay
+                            here and keep watch with me." <br /><br />
+                        </p>
+                        <a
+                            id="btn_search_garden_of_gethsemane"
+                            href="#"
+                            class="btn btn-primary"
+                            >Click for more info</a
+                        >
+                    </div>
+                </div>
+            </section>
 
-          <div>
-            <img id="circle-photos" src="../images/Philip.png" alt="Philip" />
-            <h5>Philip Son</h5>
-            <i>
-              <p class="para-sections">
-                "A very emotional experience. Huge thanks to Holy Destinations
-                Travel Agency for being the best agency out there! The ease of
-                finding a hotel and the inspiration made this trip an experience
-                that I will never forget. I was able to visit the Garden of
-                Gethsemane in Jerusalem and plan on visiting more destinations
-                in the future and really enjoy all the history. Can't wait to
-                plan the next trip!"
-              </p>
-            </i>
-          </div>
+            <!-- Drop Down -->
+            <section>
+                <div class="dropdown">
+                    <a
+                        id="btn_search_garden_of_gethsemane"
+                        class="btn btn-secondary dropdown-toggle"
+                        href="#"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                        style="background-color: black"
+                    >
+                        Select More Holy Locations</a
+                    >
 
-          <div>
-            <img id="circle-photos" src="../images/Winton.png" alt="Winton" />
-            <h5>Winton Ebanks</h5>
-            <i>
-              <p class="para-sections">
-                "I had a GREAT and MEANINGFUL time on my journey to see the
-                Jordan River. Holy Destinations Travel Agency presented
-                scriptures of Jesus being baptized in the Jordan. After
-                experiencing the atmosphere, I decided to get baptized! It was a
-                very special and wonderful trip that I will cherish for a
-                lifetime! THANK YOU HOLY DESTINATIONS TRAVEL AGENCY! You guys
-                are doing some amazing work!"
-              </p>
-            </i>
-          </div>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a class="dropdown-item" href="#">Sea of Galilee</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#"
+                                >Room of The Last Supper
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Mount Sinai</a>
+                        </li>
+                        <li><a class="dropdown-item" href="#">Red Sea</a></li>
+                        <li>
+                            <a class="dropdown-item" href="#"
+                                >The Jordan River</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+            </section>
 
-          <div>
-            <img id="circle-photos" src="../images/James.png" alt="James" />
-            <h5>James Jones</h5>
-            <i>
-              <p class="para-sections">
-                "For my trip to Egypt I really didn't know where to start
-                planning. However, Holy Destinations Travel Agency sparked my
-                interest in traveling to the Mount Sinai, the place where the
-                ten commandments were given to Moses. It's amazing how they
-                connect the scriptures to the actual locations! Highly recommend
-                their services to everyone!"
-              </p>
-            </i>
-          </div>
-        </div>
-      </section>
-    </main>
+            <!-- Section for Historial Map -->
+            <section>
+                <img
+                    class="historical-map"
+                    src="https://m.media-amazon.com/images/I/81TvsWBwkqL.jpg"
+                    alt=""
+                />
+            </section>
 
-    <!-- Footer -->
-    <footer class="page-footer">
-      <div class="container">
-        <div class="row">
-          <div class="col l6 s12">
-            <h5 class="black-text">Contact Us</h5>
+            <!-- About Us -->
+            <section id="about-us-section">
+                <h1 class="about-us">About Us</h1>
 
-            <ul>
-              <li class="black-text text-lighten-4">
-                Holy Destinations Travel Agency
-              </li>
+                <div class="about-info">
+                    <p>
+                        Holy Destinations is the largest privately owned travel
+                        resource. Our headquaters is located in Heavens, Gates
+                        and consistently ranked #1 amoung travel websites
+                        world-wide. We are dedicated to providing our users with
+                        top notch exerpiences which connects the scriptures in
+                        the Bible to their real world locations!
+                    </p>
+                </div>
+            </section>
+            <section id="testimonials-sections">
+                <h1 class="meet-the-team">Testimonials</h1>
 
-              <li class="black-text text-lighten-4">123-456-7890</li>
+                <div class="bio">
+                    <div>
+                        <img
+                            id="circle-photos"
+                            src="../images/Trey.jpg"
+                            alt="Trey"
+                        />
+                        <h5>Trey Chrystak</h5>
 
-              <li class="black-text text-lighten-4">123 Glory Blvd</li>
+                        <i>
+                            <p class="para-sections">
+                                "Holy Destinations Travel Agency changed my life
+                                as a frequent traveler. It is a one stop shop of
+                                my bible readings, seeing the actual biblical
+                                locations, and finding the closet hotels in the
+                                area. One of my favorite stories in the bible is
+                                about David and Goliath. It was really cool to
+                                finally visit The Valley of Ellah and experience
+                                where David actually stepped foot!"
+                            </p>
+                        </i>
+                    </div>
 
-              <li class="black-text text-lighten-4">Heavens, Gates 77777</li>
-            </ul>
-          </div>
-          <div class="col l4 offset-l2 s12">
-            <h5 class="black-text">Connect With Us!</h5>
+                    <div>
+                        <img
+                            id="circle-photos"
+                            src="../images/Philip.png"
+                            alt="Philip"
+                        />
+                        <h5>Philip Son</h5>
+                        <i>
+                            <p class="para-sections">
+                                "A very emotional experience. Huge thanks to
+                                Holy Destinations Travel Agency for being the
+                                best agency out there! The ease of finding a
+                                hotel and the inspiration made this trip an
+                                experience that I will never forget. I was able
+                                to visit the Garden of Gethsemane in Jerusalem
+                                and plan on visiting more destinations in the
+                                future and really enjoy all the history. Can't
+                                wait to plan the next trip!"
+                            </p>
+                        </i>
+                    </div>
 
-            <ul>
-              <li>
-                <a class="black-text text-lighten-3" href="#!"
-                  ><i class="fa-brands fa-facebook-f"></i> Facebook</a
-                >
-              </li>
+                    <div>
+                        <img
+                            id="circle-photos"
+                            src="../images/Winton.png"
+                            alt="Winton"
+                        />
+                        <h5>Winton Ebanks</h5>
+                        <i>
+                            <p class="para-sections">
+                                "I had a GREAT and MEANINGFUL time on my journey
+                                to see the Jordan River. Holy Destinations
+                                Travel Agency presented scriptures of Jesus
+                                being baptized in the Jordan. After experiencing
+                                the atmosphere, I decided to get baptized! It
+                                was a very special and wonderful trip that I
+                                will cherish for a lifetime! THANK YOU HOLY
+                                DESTINATIONS TRAVEL AGENCY! You guys are doing
+                                some amazing work!"
+                            </p>
+                        </i>
+                    </div>
 
-              <li>
-                <a class="black-text text-lighten-3" href="#!"
-                  ><i class="fa-brands fa-twitter"></i> Twitter</a
-                >
-              </li>
+                    <div>
+                        <img
+                            id="circle-photos"
+                            src="../images/James.png"
+                            alt="James"
+                        />
+                        <h5>James Jones</h5>
+                        <i>
+                            <p class="para-sections">
+                                "For my trip to Egypt I really didn't know where
+                                to start planning. However, Holy Destinations
+                                Travel Agency sparked my interest in traveling
+                                to the Mount Sinai, the place where the ten
+                                commandments were given to Moses. It's amazing
+                                how they connect the scriptures to the actual
+                                locations! Highly recommend their services to
+                                everyone!"
+                            </p>
+                        </i>
+                    </div>
+                </div>
+            </section>
+        </main>
 
-              <li>
-                <a class="black-text text-lighten-3" href="#!"
-                  ><i class="fa-brands fa-instagram"></i> Instagram</a
-                >
-              </li>
+        <!-- Footer -->
+        <footer class="page-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h5 class="black-text">Contact Us</h5>
 
-              <li>
-                <a class="black-text text-lighten-3" href="#!"
-                  ><i class="fa-brands fa-tiktok"></i> Tik Tok</a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
+                        <ul>
+                            <li class="black-text text-lighten-4">
+                                Holy Destinations Travel Agency
+                            </li>
 
-      <div class="footer-copyright">
-        <div class="container black-text">© 2022 Holy Destinations, Inc.</div>
-      </div>
-    </footer>
+                            <li class="black-text text-lighten-4">
+                                123-456-7890
+                            </li>
 
-    <!-- Bootstrap javascript -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-    <!-- My javascript -->
-    <script src="./home-page-script.js"></script>
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-  </body>
+                            <li class="black-text text-lighten-4">
+                                123 Glory Blvd
+                            </li>
+
+                            <li class="black-text text-lighten-4">
+                                Heavens, Gates 77777
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l4 offset-l2 s12">
+                        <h5 class="black-text">Connect With Us!</h5>
+
+                        <ul>
+                            <li>
+                                <a class="black-text text-lighten-3" href="#!"
+                                    ><i class="fa-brands fa-facebook-f"></i>
+                                    Facebook</a
+                                >
+                            </li>
+
+                            <li>
+                                <a class="black-text text-lighten-3" href="#!"
+                                    ><i class="fa-brands fa-twitter"></i>
+                                    Twitter</a
+                                >
+                            </li>
+
+                            <li>
+                                <a class="black-text text-lighten-3" href="#!"
+                                    ><i class="fa-brands fa-instagram"></i>
+                                    Instagram</a
+                                >
+                            </li>
+
+                            <li>
+                                <a class="black-text text-lighten-3" href="#!"
+                                    ><i class="fa-brands fa-tiktok"></i> Tik
+                                    Tok</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-copyright">
+                <div class="container black-text">
+                    © 2022 Holy Destinations, Inc.
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bootstrap javascript -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"
+        ></script>
+        <!-- My javascript -->
+        <script src="./home-page-script.js"></script>
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    </body>
 </html>
