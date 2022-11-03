@@ -23,31 +23,34 @@
 //     .then((data) => console.log(data));
 
 //James Code
-let buttonSearch = document.getElementById("btn_search");
+let buttonSearchDavidAndGoliath = document.getElementById(
+  "btn_search_david_goliath"
+);
 
-buttonSearch.addEventListener("click", () => {
+buttonSearchDavidAndGoliath.addEventListener("click", () => {
   //store query in the storage
 
   localStorage.setItem("scripture", "valley of elah");
 
-  //   let hotels = [];
-
-  //   //go get hotels and airbnb or some shit like that
-  //   //object api
-  //   //fetch
-  //   hotels = [
-  //     {
-  //       name: "hilton",
-  //       city: "san bernardino",
-  //     },
-
-  //     {
-  //       name: "merriot",
-  //       city: "las vegas",
-  //     },
-  //   ];
-  //   localStorage.setItem("hotels", JSON.stringify(hotels));
-
   //navigate to the next page
   location.pathname = "../David/david-goliath.html";
+});
+
+//break birth of Jesus
+let buttonSearchJesusBirth = document.getElementById("btn_search_jesus_birth");
+
+buttonSearchJesusBirth.addEventListener("click", () => {
+  //alert("Jesus is King");
+  localStorage.setItem("scripture_birth_of_Jesus", "birth of Jesus");
+  location.pathname = "../Jesus Birth/jesus-birth.html";
+});
+
+//break garden of gethsemane
+let buttonSearchGardenOfGethsemane = document.getElementById(
+  "btn_search_garden_of_gethsemane"
+);
+
+buttonSearchGardenOfGethsemane.addEventListener("click", () => {
+  //alert("garden of gethsemane");
+  location.pathname = "../Gethsemane/gethsemane.html";
 });
