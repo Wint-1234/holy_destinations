@@ -1,106 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Full verse</title>
-    <!-- Logo in tab -->
-    <link
-      rel="shortcut icon"
-      href="../images/Holy-Logo-With-Background.png"
-      type="image/x-icon"
-    />
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <!-- Bootstrap CSS v5.2.1 -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
-      crossorigin="anonymous"
-    />
+    <head>
+        <title>Full verse</title>
+        <!-- Logo in tab -->
+        <link
+            rel="shortcut icon"
+            href="../images/Holy-Logo-With-Background.png"
+            type="image/x-icon"
+        />
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+            crossorigin="anonymous"
+        />
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
-    <!-- My CSS -->
-    <link rel="stylesheet" href="./full-chapter-styles.css" />
-  </head>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+        />
+        <link
+            href="https://fonts.googleapis.com/icon?family=Material+Icons"
+            rel="stylesheet"
+        />
+        <!-- My CSS -->
+        <link rel="stylesheet" href="./full-chapter-styles.css" />
+    </head>
 
-  <body>
-    <header>
-      <!-- place navbar here -->
-      <nav>
-        <div class="nav-wrapper">
-          <a class="brand-logo"
-            ><img
-              id="image"
-              src="../images/Holy-Logo-No-Background.png"
-              alt="Holy Destinations Logo"
-          /></a>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a class="nav-text" href="../Home/home-page.html">HOME</a></li>
-            <li>
-              <a class="nav-text" href="../Donations/donations.html">DONATE</a>
-            </li>
-            <li>
-              <a class="nav-text" href="../Home/home-page.html#about-us-section"
-                >ABOUT US</a
-              >
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-    <main>
-      <!-- BACK BUTTON -->
-      <button
-        onclick="history.back()"
-        id="back-btn"
-        class="waves-effect waves-light btn"
-      >
-        Back
-      </button>
-      <div id="full-chapter-container" class="row">
-        <div class="col s12 m6">
-          <div class="card blue-grey darken-1">
-            <div class="card-content white-text">
-              <span class="card-title">Read Full Chapter</span>
-              <p>The full chapter's text will be implemented here.</p>
+    <body>
+        <header>
+            <!-- place navbar here -->
+            <nav>
+                <div class="nav-wrapper">
+                    <a class="brand-logo"
+                        ><img
+                            id="image"
+                            src="../images/Holy-Logo-No-Background.png"
+                            alt="Holy Destinations Logo"
+                    /></a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li>
+                            <a class="nav-text" href="../Home/home-page.html"
+                                >HOME</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="nav-text"
+                                href="../Donations/donations.html"
+                                >DONATE</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="nav-text"
+                                href="../Home/home-page.html#about-us-section"
+                                >ABOUT US</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <!-- BACK BUTTON -->
+            <button
+                onclick="history.back()"
+                id="back-btn"
+                class="waves-effect waves-light btn"
+            >
+                Back
+            </button>
+            <div id="full-chapter-container" class="row">
+                <div class="col s12 m6">
+                    <div class="card">
+                        <div class="card-content black-text">
+                            <span class="card-title"><h1>More Verses</h1></span>
+                            <p id="addVerses"></p>
+                        </div>
+                        <div class="card-action"></div>
+                    </div>
+                </div>
             </div>
-            <div class="card-action">
-              <i id="like-btn" class="material-icons">favorite_border</i>
-              <button id="share-btn" class="waves-effect waves-light btn">
-                Share
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </main>
-    <footer>
-      <!-- place footer here -->
-    </footer>
-    <!-- Bootstrap JavaScript Libraries -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-      crossorigin="anonymous"
-    ></script>
+        </main>
+        <footer>
+            <!-- place footer here -->
+        </footer>
+        <!-- Bootstrap JavaScript Libraries -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+            integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+            crossorigin="anonymous"
+        ></script>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
-      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
-      crossorigin="anonymous"
-    ></script>
-    <!-- My script -->
-    <script src="./full-chapter-script.js"></script>
-  </body>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+            integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+            crossorigin="anonymous"
+        ></script>
+        <!-- My script -->
+        <script src="./full-chapter-script.js"></script>
+    </body>
 </html>

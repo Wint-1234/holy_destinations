@@ -1,32 +1,48 @@
 #image {
-  width: 75px;
-  height: auto;
+    width: 75px;
+    height: auto;
 }
 
 #full-chapter-container {
-  text-align: center;
-  margin: 175px;
+    text-align: center;
 }
 
 /* NAV BAR CSS */
 .nav-wrapper {
-  background-color: rgb(228, 220, 209);
+    background-color: rgb(228, 220, 209);
 }
 #image {
-  width: 4rem;
-  height: 100%;
+    width: 4rem;
+    height: 100%;
 }
 .nav-text {
-  color: black;
-  font-weight: bolder;
+    color: black;
+    font-weight: bolder;
 }
 
 /* BACK-BTN */
 #back-btn {
-  background-color: rgb(214, 177, 96);
-  font-weight: bold;
-  color: white;
-  margin-top: 2%;
-  margin-bottom: 2%;
-  margin-left: 2%;
+    background-color: rgb(214, 177, 96);
+    font-weight: bold;
+    color: white;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+}
+
+@font-face {
+    font-family: titleFont;
+    src: url(../fonts/Amsterdam\ Four_ttf\ 400.ttf);
+}
+
+h1 {
+    font-family: titleFont;
+}
+
+#full-chapter-container {
+    font-size: xx-large;
+}
+
+.card {
+    background-image: url("https://images.unsplash.com/photo-1501630834273-4b5604d2ee31?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80");
 }
