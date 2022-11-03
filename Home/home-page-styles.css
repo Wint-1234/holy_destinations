@@ -125,21 +125,21 @@ main {
 
 .dropdown {
     display: flex;
-
     justify-content: center;
-
     margin: 3%;
+}
+
+#btn_gethsemane {
+    background-color: rgb(214, 96, 96);
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .historical-map {
     display: flex;
-
     justify-content: center;
-
     margin: auto;
-
     width: 70%;
-
     height: auto;
 }
 
