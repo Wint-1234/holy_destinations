@@ -1,6 +1,5 @@
 //reading the query of the local storage
 let query = localStorage.getItem("scripture");
-//let hotels = JSON.parse(localStorage.getItem("hotels"));
 
 //use the query to fetch
 
@@ -17,14 +16,17 @@ if (query !== null) {
     .then((response) => {
       console.log(response);
 
+      //create Bible chapter
       let scripturePlaceHolder = response.data.verses[0].reference;
-      //console.log(scripturePlaceHolder);
+
       let newP = document.createElement("p");
+      newP.classList.add("italics");
 
       newP.textContent = scripturePlaceHolder;
 
       let verseHolder = response.data.verses[0].text;
       let versePara = document.createElement("p");
+      versePara.classList.add("italics");
 
       versePara.textContent = verseHolder;
 

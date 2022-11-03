@@ -15,6 +15,20 @@
   font-weight: bolder;
 }
 
+.italics{
+  font-style: italic;
+}
+
+
+#image_david_goliath_i{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 70%;
+  height: auto;
+
+}
+
 /* BACK-BTN */
 #back-btn {
   background-color: rgb(214, 177, 96);
