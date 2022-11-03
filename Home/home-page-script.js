@@ -21,13 +21,11 @@ async function getVerse() {
         },
     });
     const data = await response.json();
-    debugger;
     let verses = data["data"].verses;
     let randomNumber = Math.floor(Math.random() * 10);
     let bibleReference = verses[randomNumber].reference;
     let verseOfTheDay = verses[randomNumber].text;
     verseOfDay.textContent = `${bibleReference}: ${verseOfTheDay}`;
-    debugger;
 }
 document.addEventListener("load", getVerse());
 
