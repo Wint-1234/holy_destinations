@@ -1,40 +1,69 @@
 #image {
-  width: 50px;
+    width: 50px;
+}
+
+body {
+    background-color: beige;
+}
+
+img {
+    border-radius: 50px;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic,
+        "AppleGothic", sans-serif;
+    font-size: 50px;
+    padding: 80px 50px;
+    text-align: center;
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;
+    color: #131313;
+    background-color: #e7e5e4;
+    letter-spacing: 0.15em;
+}
+
+#para {
+    font-size: large;
+}
+
+#image_david_goliath {
+    text-align: center;
+    font-size: large;
 }
 
 /* NAV BAR CSS */
 .nav-wrapper {
-  background-color: rgb(228, 220, 209);
+    background-color: rgb(228, 220, 209);
 }
 #image {
-  width: 4rem;
-  height: 100%;
+    width: 4rem;
+    height: 100%;
 }
 .nav-text {
-  color: black;
-  font-weight: bolder;
+    color: black;
+    font-weight: bolder;
 }
 
-.italics{
-  font-style: italic;
+.italics {
+    font-style: italic;
 }
 
-
-#image_david_goliath_i{
-  display: flex;
-  justify-content: center;
-  margin: auto;
-  width: 70%;
-  height: auto;
-
+#image_david_goliath_i {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 70%;
+    height: auto;
 }
 
 /* BACK-BTN */
 #back-btn {
-  background-color: rgb(214, 177, 96);
-  font-weight: bold;
-  color: white;
-  margin-top: 2%;
-  margin-bottom: 2%;
-  margin-left: 2%;
+    background-color: rgb(214, 177, 96);
+    font-weight: bold;
+    color: white;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
 }
