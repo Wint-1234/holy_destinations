@@ -6,6 +6,10 @@ body {
     background-color: beige;
 }
 
+.page-footer {
+    background-color: rgb(228, 220, 209);
+}
+
 img {
     border-radius: 50px;
 }
