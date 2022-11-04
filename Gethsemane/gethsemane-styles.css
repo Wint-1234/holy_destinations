@@ -69,3 +69,15 @@ p {
     margin-bottom: 2%;
     margin-left: 2%;
 }
+
+/* footer start */
+
+.material-icons {
+    background-color: rgb(214, 177, 96);
+}
+
+.page-footer {
+    background-color: rgb(228, 220, 209);
+}
+
+/* footer end */
